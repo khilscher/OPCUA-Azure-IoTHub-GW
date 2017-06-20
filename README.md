@@ -6,7 +6,7 @@ Code is based on the OPC Foundation OPC UA .Net Standard Library Stack at https:
 ## Build Steps
 - Clone this repo
 - Open the solution using Visual Studio 2017
-- Set the startup project to ** NetCoreConsoleClient **
+- Set the startup project to **NetCoreConsoleClient**
 - Update ```Program.cs``` in the NetCoreConsoleClient project as follows
   - Line 30 - update this to the device name you registered in IoT Hub
   - Line 35 - update this with the connection string of the device you registered in IoT Hub. You can obtain this using the Azure Portal or Device Explorer.
